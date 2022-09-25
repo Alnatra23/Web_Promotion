@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 40px 20px 0 20px;
+        }
+
+        .container .heading {
+            width: 50%;
+            padding-bottom: 50px;
+        }
+
+        .container .heading h1 {
+            font-size: 3em;
+            font-weight: bolder;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #000000;
+        }
+
+        .container .heading h3 span {
+            font-weight: 100;
+        }
+
+        .container .box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .container .box .dream {
+            display: flex;
+            flex-direction: column;
+            width: 32.5%;
+        }
+
+        .container .box .dream img {
+            width: 100%;
+            padding-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .container .btn {
+            margin: 40px 0 70px 0;
+            background: #222;
+            padding: 15px 40px;
+            border-radius: 5px;
+        }
+
+        .container .btn a {
+            color: #fff;
+            font-size: 1.2em;
+            text-decoration: none;
+            font-weight: bolder;
+            letter-spacing: 3px;
+        }
+
+        @media only screen and (max-width: 769px) {
+            .container .box {
+                flex-direction: column;
+            }
+
+            .container .box .dream {
+                width: 100%;
+            }
+
+        }
+
+        @media only screen and (max-width: 643px) {
+            .container .heading {
+                width: 100%;
+            }
+
+            .container .heading h3 {
+                font-size: 1em;
+
+            }
+
+        }
+
+        h1 span {
+            color: #0f6674;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="heading">
+        <h1>Photo <span>Gallery</span></h1>
+    </div>
+    <div class="box">
+
+        <div class="dream">
+            <img src="assets/LABJO.jfif">
+            <img src="assets/LABJO2.jfif">
+            <img src="assets/LABJO3.jfif">
+            <img src="assets/LABJO4.jfif">
+            <img src="assets/LABJO5.jfif">
+
+        </div>
+
+        <div class="dream">
+            <img src="assets/LABJO6.jfif">
+            <img src="assets/Pasirpink.jfif">
+            <img src="assets/LABJO7.jfif">
+            <img src="assets/LABJO8.jfif">
+            <img src="assets/LABJO9.jfif">
+
+        </div>
+
+        <div class="dream">
+            <img src="assets/LABJO10.jfif">
+            <img src="assets/LABJO11.jfif">
+            <img src="assets/LABJO12.jfif">
+            <img src="assets/LABJO13.jfif">
+            <img src="assets/LABJO14.jfif">
+
+        </div>
+    </div>
+    <div class="btn">
+        <a href="index.php">Back</a>
+    </div>
+
+
+</div>
+
+</body>
+</html>
+
+

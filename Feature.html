@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Destination</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            /*background-color: #666;*/
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            height: 910px; /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 910px;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .cina {
+            padding: 30px;
+        }
+
+        .citato {
+            padding: 20px;
+        }
+        .jumbotron {
+            background-image: url(assets/Peman1.jpg);
+            background-size: cover;
+            height: 640px;
+            margin-top: -55px;
+            text-align: center;
+            position: relative;
+        }
+        .jumbotron .display-4 {
+            color: white;
+            margin-top: 150px;
+            font-weight: 200;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+            margin-bottom: 30px;
+        }
+
+        .jumbotron .display-4 span {
+            font-weight: 500;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h2 class="display-5">Features Destination</h2>
+            <h1 class="display-4">Features <span> Destination</span><br><span>Labuan</span> Bajo</h1>
+        </div>
+    </div>
+</header>
+
+<section>
+    <nav class="cina">
+        <img class="citato" src="assets/Pulaukomodo.jfif" alt=""><br>
+        <img class="citato" src="assets/Pulaurinca.jfif" alt="">
+        <img class="citato" src="assets/PuncakWar.jfif" alt="">
+        <img class="citato" src="assets/GoaBatuCermin.jfif" alt="">
+
+    </nav>
+
+    <article>
+        <h1>Labuan Bajo</h1>
+        <p>Apa Saja Destinasi Wisata di Labuan Bajo yang Jadi Wisata Super Premium?<br><br>
+            Pulau Komodo<br>
+            <br>
+            Secara administratif, pulau ini berada di Kecamatan Komodo, Kabupaten Manggarai Barat, dan berbatasan
+            langsung dengan Provinsi Nusa Tenggara Barat. Pulau ini merupakan habitat asli binatang komodo. Di Pulau
+            Komodo terdapat lebih dari 2.000 ekor komodo yang hidup di alam bebas.
+            <br><br>
+            <br><br><br><br><br>
+
+            Pulau Rinca<br><br>
+
+            Pulau Rinca sangat mirip dengan Pulau Komodo. Memiliki fitur pantai yang indah dan beberapa bukit. Tanah di
+            sini sebagian besar ditutupi padang rumput. Anda dapat menjumpai banyak hewan liar di sini.
+
+
+            Pantai di sini juga dihiasi beberapa karang kecil. Pulau Rinca memiliki luas sekitar 18.500 hektare, yang
+            juga merupakan rumah tempat tinggal bagi sekitar 2.000 lebih komodo. Pulau ini menampung lebih banyak dari
+            Pulau Komodo.
+
+
+            <br><br>
+            <br><br><br><br><br><br>
+            Puncak Waringin<br><br>
+
+            Labuan Bajo yang akan menjadi wisata super premium juga mempersiapkan ruang kreatif. Puncak Waringin akan
+            menjadi ruang untuk berkarya bagi talenta ekonomi kreatif setempat. Puncak Waringin merupakan salah satu
+            spot tertinggi di Labuan Bajo. Berada di sini, traveler dapat menikmati alam Labuan Bajo dari ketinggian.
+            <br><br>
+            <br><br><br><br><br><br><br>
+
+
+            Goa Batu Cermin<br><br>
+
+            Goa Batu Cermin merupakan destinasi wisata "perut bumi" dengan pesona batu karang yang berkilau seperti
+            cermin karena terkena sinar matahari. Diharapkan dengan penataan kawasan ini Goa Batu Cermin dapat menjadi
+            destinasi wisata favorit baru di NTT selain Pulau Komodo dan Labuan Bajo.
+
+            Penataan Goa Batu Cermin meliputi pembangunan sejumlah fasilitas seperti ampiteater dan rumah budaya untuk
+            mendukung kegiatan seni dan budaya lokal. Fasilitas lain yang juga dibangun adalah trekking point menuju
+            goa, kantor pengelola, loket, kafetaria, area parkir, auditorium, pusat informasi, dan toilet.</p>
+    </article>
+</section>
+
+<footer>
+    <p>
+
+    </p>
+</footer>
+
+</body>
+</html>
+
